@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <html data-theme="cupcake"></html>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>NEWS-PORTAL</title>
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      <link rel="stylesheet" href="./style.css">
+</head>
+
+<body >
+<main class="px-1 font-family bg-[#f6f6f7]">
+      <header class="container mx-auto  py-9">
+            <div class=" md:text-2xl flex  justify-between items-center">
+                  <div>
+                        <!-- logo section -->
+                        <h1 class="text-[#5d5fef] gap-2">  <span class=" rounded-lg p-3 text-white bg-[#5d5fef]">News</span>Portal</h1>
+                  </div>
+                  <div class="flex text-2xl">
+                        <div class="">
+                              <a class="text-5xl tab tab-bordered tab-active">News</a> 
+                              <a class="text-2xl tab tab-bordered">Blog</a>
+                        </div>
+                        <img src="./img//Ellipse 1.svg" alt="">
+                  </div>
+            </div>
+      </header>
+      <div class="container mx-auto">
+            <hr class=" text-gray-500">
+      </div>
+      
+      <main class="container mx-auto  py-10">
+            <div id="tab_container" class="tabs  m-auto   text-center  flex justify-between "></div>
+            <!-- news category section   -->
+            <!-- search section -->
+            <div class="py-4 md:py-10 items-center  flex justify-center">
+                  <input class="py-3 pl-3 pr-[150px] md:pr-[600px] lg:pr-[1350px]  text-black" type="text" placeholder="4 items found for category Entertainment ">
+            </div>
+            <div class="py-4 md:py-10  flex justify-between items-center ">
+                  <!-- first section -->
+                  <div class="flex justify-between items-center gap-2">
+                        <h1>Short BY View:</h1>
+                        <select class="bg-[#f6f6f7] text-[#abadc6] border-none" name="" id="">
+                              <option class="bg-[#f6f6f7]" value="">Default</option>
+                              <option class="bg-[#f6f6f7]" value="">Latest</option>
+                              <option class="bg-[#f6f6f7]" value="">Popular</option>
+                              <option class="bg-[#f6f6f7]" value="">OLdte</option>
+                        </select>
+                  </div>
+                  <!-- second section -->
+                  <div class="flex justify-between items-center gap-1 ">
+                        <h1>Today'S Pick</h1>
+                        <button class=" py-2 px-3 border-2 rounded text-[#5d5fef] border-[#5d5fef]">Trending</button>
+                  </div>
+            </div>
+            <!-- news category items 1   -->
+            <div id="news_cart_container" class="py-1  md:py-5">          
+            </div>
+            <!-- modal container -->
+      </main>
+
+
+      <div id="modal-container" class="modal-container">
+      </div>
+
+
+
+
+
+      <footer class="container mx-auto py-10">
+      </footer>
+</main>
+      <script src="./javascript//index.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- 
+<div class=" border-2 flex  flex-col md:flex-row">
+
+      <div class=" border-2 flex  lg:w-6/12">
+            <img class="  " src="./img//news-portal.png" alt="">
+      </div>
+
+      <div class="p-[30px] border-2 bg-white"> 
+            <div class=" md:pt-6">
+                  <h1 class=" text-3xl md:text-5xl">The best online vintage clothing stores to shop more sustainably this summer </h1>
+                        <br>
+                  <h1 class="text-xl py-5 ">  There’s no better time than now to familiarise yourself with the best online vintage clothing stores. If you want to 
+                  overhaul your wardrobe for the long run, mixing vintage with high street clothing is the key to being trendy as well as 
+                  sustainable. 
+                        <br>
+                        <br>
+                        <br>
+                  But vintage shopping isn’t easy, you can easily spend hours in a store and walk out with...</h1>
+            </div>
+
+            <div class="grid lg:gap-3 grid-cols-1 md:grid-cols-4 justify-between items-center md:pt-[70px] ">
+                  <div class="flex">
+                        <div>
+                              <img class="h-[50px] w-[50px]" src="./img//news-portal (1).png" alt="">
+                        </div>
+                        <div>
+                              <h1>Jane Cooper</h1>
+                              <h1>Jan 10, 2022 </h1>
+                        </div>
+                  </div>
+                  <div class=" md:text-xl flex md:justify-center"> total views : 1.5M </div>
+                  <div class=" md:text-center md:items-center">
+                        <i class=" text-orange-400 md:text-3xl fa-solid fa-star"></i>
+                        <i class=" text-orange-400 md:text-3xl fa-solid fa-star"></i>
+                        <i class=" text-orange-400 md:text-3xl fa-solid fa-star"></i>
+                        <i class=" text-orange-400 md:text-3xl fa-solid fa-star"></i>
+                        <i class=" text-orange-400 md:text-3xl fa-solid fa-star"></i>
+                  </div>
+                  <div  class="flex md:justify-end"><a href=""><i class=" flex justify-end md:text-5xl fa-solid fa-arrow-right"></i></a> </div>
+            </div>
+      </div>
+</div> -->
